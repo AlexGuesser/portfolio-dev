@@ -1,0 +1,33 @@
+#contact {
+    margin-top: 128px;
+    height: 750px;
+    background-image: url(../assets/images/Background_Contacts.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+
+#links {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+
+    .link {
+        width: 250px;
+        display: flex;
+        margin-inline: auto;
+        background-color: var(--gray-300);
+        border-radius: 12px;
+        padding: 20px;
+        justify-content: space-around;
+        img {
+            height: 24px;
+            width: 24px;
+        }
+        p {
+            font: var(--text-md);
+        }
+    }
+}
